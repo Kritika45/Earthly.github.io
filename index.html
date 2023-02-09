@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Earthly</title>
+  <link rel="icon" type="image/x-icon" href="assets/Images/Earthly1.webp">
+  <style>
+    .odiv{
+      color:white;
+    }
+    .nav-link
+    { color: rgb(9, 9, 9);}
+    .pdiv {
+      font-weight: bold;
+      color: rgb(255, 254, 254);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+
+    }
+
+    .ldiv {
+      animation-timing-function: ease-out;
+      position: relative;
+      animation: mymove 2s linear 1s infinite alternate;
+    }
+
+    @keyframes mymove {
+      0% {
+        right: 0px;
+        top: 0px;
+      }
+
+      100% {
+        right: 300px;
+        top: 0px;
+      }
+    }
+
+    .jdiv {
+      transition: width 1s, height 1s;
+    }
+
+    .jdiv:hover {
+      width: 500px;
+      height: 400px;
+    }
+
+    .kdiv {
+      transition: width 1s, height 1s;
+    }
+
+    .kdiv:hover {
+      width: 600px;
+      height: 450px;
+    }
+
+    .all-browsers {
+      margin: 0;
+      padding: 5px;
+      background-color: lightgray;
+    }
+
+    .all-browsers>h1,
+    .browser {
+      margin: 30px;
+      padding: 5px;
+    }
+
+    .browser {
+      background: white;
+    }
+
+    .browser>h2,
+    p {
+      margin: 4px;
+      font-size: 90%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: rgb(54, 52, 52);
+      color: white;
+    }
+    /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 1px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(20, 20, 20); 
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #474747; 
+}
+
+
+
+
+  </style>
+</head>
+
+
+<body>
+
+  <nav class="navbar" style="background-color: #a5f358;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/Images/eco-conscious.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top"><br>
+       <h6 class="pdiv">Earthly</h6>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <br><br>
+      <ul class="nav justify-content-end">
+        <li class="nav-item" background-color:>
+          <a class="nav-link" aria-current="page" href="index.html" >Shop</style></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart</a>
+        </li>
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+       
+      </ul>
+      <br>
+      <ul class="nav justify-content-end">
+        <li class="nav-item odiv">
+          <br>
+
+          <h4 class="pdiv"><i>Sustainable Products at affordable prices!</i></h4>
+        
+          <div class="ldiv"><img src="assets/Images/Earthly1.webp" class="rounded float-end" alt="..."></div>
+        </li>
+      </ul>
+        
+        
+      </div>
+    </div>
+  </nav>
+  <br>
+
+  <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/Images/r.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Reusable Bamboo Straws</h5>
+            <p>Minimise your easiness!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/Images/u.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bamboo Toothbrush</h5>
+            <p>Glance at comfortable quality!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/Images/m.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Natural Bamboo Loofah</h5>
+            <p>Quality of comfort!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="assets/Images/t.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plant Based Reusable Cups</h5>
+            <p class="card-text">Unlike plastic-based mugs to go available widely in local coffee chains and shops, this newly made cup is biodegradable. Upon reaching the end of its lifespan, the Kreis Cup disintegrates easily into the soil, leaving no waste behind.
+              To further its mission, Coffee Kreis aims to collect as much spent coffee ground as possible from restaurants, hotels and coffee shops so that it can prevent such material.
+              </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="Shop.html">Get Details here</a></small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/Images/j.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plant Based Reusable Containers
+            </h5>
+            <p class="card-text">Hot off the press is our innovative assortment of compostable, microwavable to go containers 
+              available in three popular sizes. Made from 97% annually renewable plant-based content, 
+              these biodegradable and compostable hot food containers are the perfect solution for those of you looking to kick 
+              fossil fuels to the curb.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="Cart.html">Get Details here</a></small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/Images/h.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reusable Bamboo Straws</h5>
+            <p class="card-text">Buying bamboo straws from real bamboo stalks that you can 
+              reuse over and over again is about as sustainable and planet-friendly as you can get. 
+              If we compare the damage that single-use plastics are causing to our coastlines with what 
+              happens when bamboo has reached the end of its’ life, there really is no question on which material 
+            has the harshest effects on our environment.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="R.html">Get Details here</a></small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/Images/images.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bamboo Toothbrush</h5>
+            <p class="card-text">Bamboo toothbrushes have been around for a while, by some estimates they have been around for centuries, but it wasn’t until recently that they increased in popularity. So, what are bamboo toothbrushes?
+
+              Bamboo toothbrushes are exactly what they sound like. They are toothbrushes that have handles that are made out of an all-natural are made out of nylon or nylon4.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="B.html">Get Details here</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="text-center">
+    <img src="assets/Images/m.webp" class="rounded jdiv" width="300px;" height="270px;" alt="...">
+    <a href="L.html">Get Details here</a></small>
+  </div>
+
+
+  <br>
+  <div class="container">
+    <article class="all-browsers">
+      <h1>Latest Checkouts!</h1>
+      <article class="browser">
+        <h2><b>Bamboo Toothbrushes</b></h2>
+        <p>
+          Bamboo Toothbrush (set of 2)
+          Regular Price €4.49 | Sale Price €3.59
+      </article>
+      <article class="browser">
+        <h2><b>Sustainability Starter Kit</b></h2>
+        <p>Sustainability Starter Kit
+          Price €10.99
+          
+          
+      </article>
+      <article class="browser">
+        <h2><b>Plant Based Reusable Cups
+         </b></h2>
+        <p>Plant Based Reusable Cups
+          Regular Price €2.99 | Sale Price €2.39
+      </article>
+    </article>
+  </div>
+  <footer>
+    <p>Presented by:Kritika Tiwari (Student |SPPU)<br>
+      <a href="mailto:hege@example.com">Earthly@gmail.com</a>
+    </p>
+  </footer>
+
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook"><img
+              src="assets/Images/fa1.png"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"><img
+              src="assets/Images/t1.png"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"><img
+              src="assets/Images/go1.png"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"><img
+              src="assets/Images/in1.jpg"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"><img
+              src="assets/Images/li12.png"></i></a>
+
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="http://127.0.0.1:5500/index.html">Earthly</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
